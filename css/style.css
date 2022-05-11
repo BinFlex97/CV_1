@@ -439,11 +439,11 @@ i .fa {
 }
 
 #group-col-right .cvo-block-title {
-    width: 80%
+    width: 90%
 }
 
 #group-col-left .cvo-block-title {
-    width: 80%
+    width: 60%
 }
 
 #cvo-body .row {
@@ -647,12 +647,12 @@ i .fa {
 }
 
 #cvo-body .cv-col-left {
-    width: 50%;
+    width: 40%;
     padding-left: 20px
 }
 
 #cvo-body .cv-col-right {
-    width: 50%
+    width: 60%
 }
 
 #cvo-body .theme-background {
@@ -743,7 +743,8 @@ i .fa {
 #cvo-body .cvo-block-content {
     margin-top: 30px;
     margin-bottom: 15px;
-    word-break: break-word
+    word-break: break-word;
+    width: 80%
 }
 
 #cvo-body [contenteditable=true]:empty:before {
