@@ -1,21 +1,28 @@
 body{
-    background-image: url(../img/b2.jpg);
+    background-image: url(../img/317-3175862_work-desk-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
 }
 
-h5, p{
+span{
     margin: 0 5%;
+    text-shadow: 0 0 20px rgb(255, 255, 255);
+    font-weight: lighter;
+    color: white;
 }
-p{
+h5, p{
     margin-left: 10%;
+    margin: 0 5%;
+    text-shadow: 0 0 20px rgba(0, 0, 0);
+    color: white;
 }
 .cvo-block-content{
     margin-left: 3%;
     border-left: 1px solid rgb(171, 169, 169, 0.5);
 }
+
 @font-face {
     font-family: robotocondensed;
     src: url(assets/fonts/RobotoCondensed-Light.ttf);
@@ -73,7 +80,7 @@ p{
 .cvo-document .cvo-page {
     padding: 0;
     position: relative;
-    background-color: #fff;
+    background-color: rgba(0, 0, 0, 0.7);
     color: #000
 }
 
@@ -159,9 +166,14 @@ p{
 }
 
 #cvo-main {
-    margin-top: 32px
+    padding-top: 32px
 }
-
+#navbarCorp{
+    transform: translateY(-32px);
+    margin-left: 3%;
+    word-break: break-word;
+    border-left: 1px solid rgb(171, 169, 169, 0.5);
+}
 #cvo-body {
     margin: 0 auto;
     width: 100%;
@@ -443,7 +455,7 @@ i .fa {
 }
 
 #group-col-left .cvo-block-title {
-    width: 60%
+    width: 80%
 }
 
 #cvo-body .row {
@@ -524,7 +536,8 @@ i .fa {
 #cvo-body .cvo-block-title {
     font-size: 18px;
     padding: 10px;
-    border-radius: 10px 10px 10px 0
+    border-radius: 10px 10px 10px 0;
+    box-shadow: 0 0 20px white ;
 }
 
 #cvo-skillrate {
@@ -650,13 +663,39 @@ i .fa {
     width: 40%;
     padding-left: 20px
 }
-
+#cvo-body .cv-col-left .cv-picture{
+    background-image: url(../img/z3437976695841_d0da5ea1eb367658beedad9f09f0f95c.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 0 20px white;
+}
+#cvo-body .cv-header-left{
+    position: relative;
+}
+#cvo-body .cv-info{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    font-size: 20px;
+    transform: translate(50%,50%);
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    border-radius: 50%;
+    box-shadow: 0 0 20px white;
+}
 #cvo-body .cv-col-right {
     width: 60%
 }
 
 #cvo-body .theme-background {
-    background-color: #ff7f29;
+    background-color: rgba(0, 0, 0, 0.9);
     color: #fff
 }
 
@@ -670,12 +709,14 @@ i .fa {
 
 #cvo-body .name-header {
     display: inline-block;
-    width: 100%
+    width: 100%;
+    box-shadow: 0 5px 20px white
 }
 
 #cvo-body .name-header .name-header-content-wrapper {
     position: relative;
-    min-height: 200px
+    min-height: 150px;
+    
 }
 
 #cvo-body .name-header .name-header-content {
@@ -780,4 +821,44 @@ i .fa {
 
 @page: first {
     margin-top: 0 !important
+}
+@media screen and (max-width: 420px) {
+        #cvo-body .cvo-block-title {
+            font-size: 20px;
+            padding: 5px;
+            border-radius: 5px 5px 5px 0;
+            box-shadow: 0 0 20px white;
+        }
+        #cvo-body h5{
+            font-size: 0.9rem;
+        }
+        #cvo-body{
+            font-size: 12px;
+            line-height: 15px;
+        }
+        #cvo-profile-fullname{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        #cvo-profile-title {
+            font-size: 16px;
+        }
+        #cvo-body .name-header .name-header-content{
+            padding-left: 5px;
+        }
+        #group-col-right .cvo-block {
+            padding: 0;
+        }
+        #group-col-left .cvo-block{
+            padding: 0;
+        }
+        #group-col-left{
+            padding-top: 0;
+        }
+        #group-col-right .cvo-block{
+            padding: 0;
+        }
+        #cvo-body .cv-col{
+            padding:5px;
+        }
 }
