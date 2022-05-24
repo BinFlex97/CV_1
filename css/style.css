@@ -871,4 +871,7 @@ i .fa {
             width: 120px;
             height: 120px;
         }
+        #cvo-body .cvo-block-content{
+            width: 100%;
+        }
 }
