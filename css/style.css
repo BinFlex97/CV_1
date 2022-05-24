@@ -673,6 +673,8 @@ i .fa {
     margin: auto;
     border: 1px solid rgb(255, 255, 255);
     box-shadow: 0 0 20px white;
+    height: 150px;
+    width: 150px;
 }
 #cvo-body .cv-header-left{
     position: relative;
@@ -787,7 +789,11 @@ i .fa {
     word-break: break-word;
     width: 80%
 }
-
+#cvo-body .info-contract{
+    color: rgb(255, 255, 255,1);
+    text-shadow: 0 0 10px white;
+    border-bottom: 2px solid white;
+}
 #cvo-body [contenteditable=true]:empty:before {
     color: #fff;
     opacity: .6
@@ -860,5 +866,9 @@ i .fa {
         }
         #cvo-body .cv-col{
             padding:5px;
+        }
+        #cvo-body .cv-col-left .cv-picture{
+            width: 120px;
+            height: 120px;
         }
 }
