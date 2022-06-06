@@ -12,21 +12,22 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
         integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 </head>
 
 <body>
-    <div class="container pt-5 pb-5">
+    <div class="container pt-5 pb-5 animate__animated animate__fadeIn animate__slow">
         <div id="cvo-document-root">
-            <div id="cvo-document" class="cvo-document">
-                <div class="cvo-page">
+            <div id="cvo-document" class="cvo-document ">
+                <div class="cvo-page ">
                     <div class="cvo-subpage">
-                        <div id="cvo-body">
-                            <div class="name-header theme-background">
+                        <div id="cvo-body" class="">
+                            <div class="name-header theme-background ">
                                 <div class="cv-col cv-header-left cv-col-left">
                                     <div class="cv-picture">
-                                        <button class="cv-info " type="button" data-toggle="collapse"
-                                            data-target="#navbarCorp">
-                                            <p class=" fa fa-address-card"></p>
+                                        <button class="cv-info" type="button" data-toggle="collapse"
+                                            data-target="#navbarCorp" aria-expanded="true" >
+                                            <p id="infoFix" class=" fa fa-address-card"></p>
                                         </button>
 
                                     </div>
@@ -34,7 +35,7 @@
                                 <div class="cv-col cv-col-right name-header-content-wrapper">
                                     <div class="name-header-content">
                                         <span id="cvo-profile-fullname">Đinh Quang Khánh </span>
-                                        <span id="cvo-profile-title">INTERN</span>
+                                        <span id="cvo-profile-title">INTERN FRONT-END</span>
                                     </div>
                                 </div>
                             </div>
@@ -42,7 +43,7 @@
                                 <div class="cv-col cv-col-left">
                                     <div id="group-col-left" class="">
                                         <div id="cvo-skillgroup" class="cvo-block ">
-                                            <div class="navbar-collapse collapse " id="navbarCorp" >
+                                            <div class="navbar-collapse collapse " id="navbarCorp">
                                                 <ul class="navbar-nav mx-auto">
                                                     <li class="nav-item ">
                                                         <h5 class="info-contract">Contract Information</h5>
@@ -57,13 +58,18 @@
                                                         <p><span class="fa fa-phone"></span>(+84) 388 482 643</p>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <p><span class="fa fa-envelope"></span>khanhquangdinh197@gmail.com</p>
+                                                        <p><span
+                                                                class="fa fa-envelope"></span>khanhquangdinh197@gmail.com
+                                                        </p>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <p><span  class="fa fa-globe-americas"></span>https://github.com/BinFlex97</p>
+                                                        <p><span
+                                                                class="fa fa-globe-americas"></span>https://github.com/BinFlex97
+                                                        </p>
                                                     </li>
                                                     <li class="nav-item">
-                                                        <p><span class="fa fa-map-marker-alt"></span>Da Nang, Viet Nam</p>
+                                                        <p><span class="fa fa-map-marker-alt"></span>Da Nang, Viet Nam
+                                                        </p>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -177,14 +183,14 @@
     </div>
 
 
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
         crossorigin="anonymous"></script>
-
+    
 </body>
 
 </html>
