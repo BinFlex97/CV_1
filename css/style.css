@@ -690,6 +690,9 @@ i .fa {
     left: 5%;
     border-radius: 25% 25% 25% 0;
     border: 1px solid white;
+    animation-name: information;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 #cvo-body .cv-col-right {
@@ -879,4 +882,18 @@ i .fa {
         #cvo-body .cvo-block-content{
             width: 100%;
         }
+}
+@keyframes information{
+    0%{
+        box-shadow: 0 0 0 white;
+         
+    }
+    50%{
+        box-shadow: 0 0 30px white;
+       
+    }
+    100%{
+        box-shadow: 0 0 0 white;
+        
+    }
 }
