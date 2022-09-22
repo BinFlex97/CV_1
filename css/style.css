@@ -12,7 +12,7 @@ span{
     font-weight: lighter;
     color: white;
 }
-h5, p{
+h5, h4, h3, p{
     margin-left: 10%;
     margin: 0 5%;
     text-shadow: 0 0 20px rgba(0, 0, 0);
